@@ -1,0 +1,114 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  font-family: Ford Antenna, sans-serif !important;
+  display: flex;
+}
+
+.header-top {
+  background-color: #102b4e;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-eyebrow {
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-main {
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.header-main-left {
+  color: #102b4e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  margin-right: 100px;
+}
+.header-main-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+}
+.Top-banner {
+  background-color: #102b4e;
+  color: #fff;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.Product-tab-header {
+  padding-bottom: 30px;
+  background-color: #f4f4f4;
+  display: "flex";
+}
+.img-vehicle {
+  height: 500px;
+  width: 800px;
+  cursor: zoom-in;
+  object-fit: cover;
+  transition: transform 1000ms;
+}
+.img-vehicle:hover {
+  transform: scale(2, 2);
+}
+.Footer-Main {
+  background-color: rgb(12, 18, 24);
+  color: white;
+  letter-spacing: 0.5px;
+  display: flex;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.parent-div div:hover {
+  color: #2861a4;
+}
+.footer-sub {
+  font-size: 14px;
+  height: 150px;
+}
+
+.LoginPage {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4f4f4;
+  font-family: Ford Antenna, sans-serif !important;
+}
+
+.LoginPage-Paper {
+  height: 500px;
+  width: 600px;
+  display: flex;
+  color: #102b4e;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+.cart-body {
+  color: rgb(77, 77, 77);
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
